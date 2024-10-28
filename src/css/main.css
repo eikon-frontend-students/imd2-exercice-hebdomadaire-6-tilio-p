@@ -12,3 +12,45 @@ img,
 video {
   display: block;
 }
+
+body {
+  background: #eee;
+  color: #754ff6;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.navigation {
+  display: flex;
+  width: 200px;
+  padding: 50px 20px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  box-shadow: 2px 0px 6px 0px rgba(0, 0, 0, 0.25);
+  height: 1117px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.red {
+  color: #e5807c;
+}
+
+img {
+  padding-bottom: 10px;
+  max-width: max-content;
+}
